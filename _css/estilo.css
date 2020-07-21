@@ -1,1 +1,14 @@
 @charset "UTF-8";
+/*==============================PARÁGRAFOS===================================*/
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*==================================BODY=====================================*/
+body{
+    background: url('../_imagens/protera-wallpaper-compactado.jpg');
+}
+/*===========================Estrutura do Site=================================*/
+header#Cabecalho{
+    
+}
+

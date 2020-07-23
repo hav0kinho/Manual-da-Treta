@@ -6,7 +6,10 @@ p{
 /*==================================BODY=====================================*/
 body{
     background: url('../_imagens/protera-wallpaper-compactado.jpg') no-repeat;
-
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 /*==================================LOGO======================================*/
 figure#logo{
@@ -35,7 +38,7 @@ nav#menu a{
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 24pt;
-    transition: color .s;
+    transition: color .3s;
 }
 nav#menu a:hover{
     color: red;
@@ -50,4 +53,49 @@ nav#menu li{
     margin-left: 150px;
     border-bottom: 2px #606060 solid;
 }
+/*===================Lateral======================*/
+aside#lateral{
+    display: block;
+    float: left;
+    width: 160px;
+    margin-left: 0px;
+    background-color: rgba(35,35,35,1);
+}
+aside#lateral p{
+    font-size: 12pt;
+    padding: 8px;
+    text-align: left;
+}
+/*===================Corpo========================*/
+section#corpo{
+    display: block;
+    float: right;
+    margin-top: 35px;
+    width: 1168px;
+    background-color: rgba(0,0,0,.8);
+}
+/*=============Imagens============*/
+section#corpo p{
+    width: 400px;
+}
+/*====Imagem 1====*/
+section#corpo div#primeira-imagem{
+    position: relative;
+    display: block;
+    top: 0px;
+    left: 0px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+/*====Imagem 2====*/
+section#corpo div#segunda-imagem{
+    position: relative;
+    display: block;
+    top: 0px;
+    left: 750px;
+    margin-left: 50px;
+    margin-top: 40px;
+    
+}
+
 

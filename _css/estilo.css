@@ -21,6 +21,7 @@ figure#logo img{
 header#cabecalho{
 
 }
+/*==================Menu===================*/
 nav#menu{
     background-color: rgba(35,35,35,1);
     position: absolute;
@@ -29,7 +30,24 @@ nav#menu{
     top: 0px;
     left: 175px;
 }
+nav#menu a{
+    text-decoration: none;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24pt;
+    transition: color .s;
+}
+nav#menu a:hover{
+    color: red;
+}
+nav#menu ul{
+    position: absolute;
+    top: 35px;
+    left: -70px;
+}
 nav#menu li{
-    
+    display: inline-block;
+    margin-left: 150px;
+    border-bottom: 2px #606060 solid;
 }
 

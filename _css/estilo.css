@@ -5,10 +5,31 @@ p{
 }
 /*==================================BODY=====================================*/
 body{
-    background: url('../_imagens/protera-wallpaper-compactado.jpg');
+    background: url('../_imagens/protera-wallpaper-compactado.jpg') no-repeat;
+
+}
+/*==================================LOGO======================================*/
+figure#logo{
+    padding: 0px;
+    margin: 0px;
+}
+figure#logo img{
+    width: 150px;
+    height: 150px;
 }
 /*===========================Estrutura do Site=================================*/
-header#Cabecalho{
+header#cabecalho{
+
+}
+nav#menu{
+    background-color: rgba(35,35,35,1);
+    position: absolute;
+    width: 1200px;
+    height: 150px;
+    top: 0px;
+    left: 175px;
+}
+nav#menu li{
     
 }
 
